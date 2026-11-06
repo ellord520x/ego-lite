@@ -1,0 +1,9 @@
+{
+  "url": "https://www.selenium.dev/selenium/web/web-form.html",
+  "steps": [
+    {"action": "fill", "selector": "[name=my-text]", "value": "Codespaces Engine"},
+    {"action": "click", "selector": "button"},
+    {"action": "read", "selector": "body"},
+    {"action": "screenshot", "path": "artifacts/flow-result.png"}
+  ]
+}
